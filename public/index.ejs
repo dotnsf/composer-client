@@ -1,0 +1,26 @@
+<html>
+<head>
+<title>index.ejs</title>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+</head>
+<body>
+<h1>index.ejs</h1>
+<br/>
+<table border="1">
+<tr><th>Method</th><th>Path</th><th>Params</th><th>Desc</th></tr>
+<tr><td>GET</td><td>/participants</td><td>&nbsp;</td><td>Participants 一覧</td></tr>
+<tr><td>GET</td><td>/participant</td><td>participantId</td><td>指定の Participant 取得</td></tr>
+<tr><td>POST</td><td>/participant</td><td>participantId<br/>firstName<br/>lastName<br/>companyName</td><td>Participant 作成／更新</td></tr>
+<tr><td>DELETE</td><td>/participant</td><td>participantId</td><td>指定の Participant 削除</td></tr>
+<tr><td>GET</td><td>/assets</td><td>&nbsp;</td><td>Assets 一覧</td></tr>
+<tr><td>GET</td><td>/asset</td><td>assetId</td><td>指定の Asset 取得</td></tr>
+<tr><td>POST</td><td>/asset</td><td>assetId<br/>participantId<br/>name<br/>created<br/>price</td><td>Asset 作成／更新</td></tr>
+<tr><td>DELETE</td><td>/asset</td><td>assetId</td><td>指定の Asset 削除</td></tr>
+<tr><td>GET</td><td>/queryAssetsByPrice</td><td>priceFrom<br/>priceTo</td><td>指定価格範囲の Asset を検索</td></tr>
+<tr><td>GET</td><td>/queryAssetsByCompanyName</td><td>companyName</td><td>指定企業名称の Asset を検索</td></tr>
+</table>
+</body>
+</html>
+

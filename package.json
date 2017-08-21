@@ -1,0 +1,20 @@
+{
+  "name": "composer-client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies":{
+    "body-parser": "^1.17.2",
+    "cfenv": "~1.0.0",
+    "composer-client": "^0.11.1",
+    "config": "^1.26.1",
+    "ejs": "^2.3.4",
+    "express": "4.1.x",
+    "multer": "^1.1.0"
+  }
+}
